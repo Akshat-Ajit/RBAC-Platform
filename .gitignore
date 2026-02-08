@@ -1,0 +1,23 @@
+# .NET build outputs
+**/bin/
+**/obj/
+
+# Rider/VS/VS Code
+**/.vs/
+**/.idea/
+**/.vscode/
+
+# User secrets
+**/secrets.json
+
+# Logs
+**/*.log
+
+# Node
+**/node_modules/
+**/dist/
+**/coverage/
+
+# OS files
+.DS_Store
+Thumbs.db

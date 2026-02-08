@@ -102,6 +102,10 @@ Full-stack RBAC platform built with ASP.NET Core (.NET 9) and React (Vite + Type
 - Run all tests:
    - `dotnet test`
 
+## Source Control
+- `.gitignore` excludes build outputs (bin/obj), `node_modules`, and build artifacts.
+- Store secrets in user-secrets or environment variables, not in source control.
+
 ## Docker
 - `docker-compose up --build`
 
