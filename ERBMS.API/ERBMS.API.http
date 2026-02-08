@@ -1,0 +1,6 @@
+@ERBMS.API_HostAddress = http://localhost:5125
+
+GET {{ERBMS.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
